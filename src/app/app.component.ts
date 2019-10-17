@@ -53,7 +53,7 @@ export class AppComponent {
     id: number,
     title: string,
     done: boolean
-  }[] = JSON.parse(window.localStorage.getItem('todos') || '[]');
+  }[] = todos;
 
   // tslint:disable-next-line: member-ordering
   public currentEditing: {
