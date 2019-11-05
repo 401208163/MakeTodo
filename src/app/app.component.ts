@@ -77,7 +77,7 @@ export class AppComponent {
 
   addTodo(e) {
     this.todos.push({
-      id: todos.length ? 1 : todos.length + 1,
+      id: todos.length ? todos.length + 1 : 1,
       title: e.target.value,
       done: false
     });
